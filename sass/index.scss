@@ -1,0 +1,155 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.main-header {
+  background-color: #000;
+  // opacity: 0.5;
+}
+
+.nav {
+  padding: 2.75rem 0;
+  .nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    input {
+      width: 27rem;
+      height: 3rem;
+      border-radius: 0.5rem;
+      border: 1px solid #fff;
+      font-size: 2rem;
+      padding: 0.2rem 0.5rem;
+    }
+  }
+}
+
+.nav-item {
+  .nav-link {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  button {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 0.5rem 2rem;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    border: 1px solid #fff;
+    &.active {
+      background: #f72585;
+      border: #f72585;
+    }
+  }
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  span {
+    color: #e6e6e6;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  img {
+    margin: 0 0.5rem;
+  }
+}
+
+.header-title {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 88px;
+  margin-top: 64px;
+  padding-bottom: 7.5rem;
+}
+
+// blog
+
+.blog-cards {
+  padding: 6rem 0;
+}
+.blog-item {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  margin: 3.5rem;
+  .blog-img {
+    width: 50%;
+    height: 32rem;
+    border-radius: 8px;
+    background: #ccc;
+  }
+  .blog-info {
+    width: 50%;
+
+    h2 {
+      color: #1c3554;
+      font-family: sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 48px;
+      text-transform: capitalize;
+    }
+    h4 {
+      display: flex;
+      align-items: center;
+      margin: 1rem 0;
+      span {
+        color: #808080;
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+      img {
+        margin: 0 1rem;
+      }
+    }
+  }
+
+  p {
+    color: #808080;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 4.5rem;
+  }
+  button {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    border-radius: 8px;
+    background: #f72585;
+    border: none;
+    padding: 0.75rem 2rem;
+  }
+}
